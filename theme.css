@@ -154,13 +154,13 @@ border-radius: 8px;
 background: #3A3A3A;
 }
 #woot .bottom, #woot.selected {
-background: #45CB27;
+background: #7D2FFF;
 }
 #grab .bottom, #grab.selected {
-background: #CD00FF;
+background: #9352FF;
 }
 #meh .bottom, #meh.selected {
-background: #E50000;
+background: #4303AF;
 }
 .row:hover {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
