@@ -16,7 +16,7 @@
     "ccc": {
         "admin":                "#3ED1B4",
         "ambassador":           "#27C800",
-        "host":                 null,
+        "host":                 "#492864",
         "cohost":               "#492864",
         "manager":              "#5200D9",
         "bouncer":              "#006DDB",
@@ -31,7 +31,7 @@
         "playback":             null,
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
-        "host":                 null,
+        "host":                 "http://i.imgur.com/yrVM7bd.png",
         "cohost":               "http://i.imgur.com/yrVM7bd.png",
         "manager":              "http://i.imgur.com/5Gay4ta.png",
         "bouncer":              "http://i.imgur.com/Co0iNE5.png",
