@@ -2,7 +2,7 @@
     "room":                     "Bass Music Network",
     "author":                   "Paradox",
     "icon":                     "http://i.imgur.com/gP0WSCW.png",
-    "css":                      "http://connor.hollywoodbiz.biz/plugcss.txt",
+    "css":                      "http://connor.hollywoodbiz.biz/plugcss.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
