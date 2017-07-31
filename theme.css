@@ -1,5 +1,5 @@
 .room-background {
-    background: url(http://i.imgur.com/JbT6cN8.mp4) no-repeat !important;
+    background: url(http://connor.hollywoodbiz.biz/bg8.gif) no-repeat !important;
     width: 500% !important;
     height: 500% !important;
 }
@@ -9,6 +9,15 @@
 #footer {
     background: linear-gradient(to bottom,rgba(50, 80, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
+#woot .bottom, #woot.selected {
+background: #06AAE8;
+}
+#grab .bottom, #grab.selected {
+background: #E8B806;
+}
+#meh .bottom, #meh.selected {
+background: #E80655;
+}
 #playlist-button {
     background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
 }
@@ -17,6 +26,10 @@
 }
 #store-button {
     background: linear-gradient(to bottom,#FF0000 0,#A00000 100%);
+}
+.votes-rs {
+    background: rgba(40, 40, 40, 0.84) !important;
+    color: rgba(9, 160, 252, 0.99) !important;
 }
 #plug-dj {
     background: linear-gradient(to bottom,#0268AC 0,#02225C 100%);
@@ -52,19 +65,19 @@
 }
 #chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
     background-color: rgba(10, 0, 20, 0.52);
-    -webkit-animation:fadein 0.25s;
-    -moz-animation:fadein 0.25s;
-    -ms-animation:fadein 0.25s;
-    -o-animation:fadein 0.25s;
-    animation:fadein 0.25s;
+    -webkit-animation:fadein 0.6s;
+    -moz-animation:fadein 0.6s;
+    -ms-animation:fadein 0.6s;
+    -o-animation:fadein 0.6s;
+    animation:fadein 0.6s;
 }
 #chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
 background-color: rgba(20, 0, 40, 0.52);
-    -webkit-animation:fadein 0.25s;
-    -moz-animation:fadein 0.25s;
-    -ms-animation:fadein 0.25s;
-    -o-animation:fadein 0.25s;
-    animation:fadein 0.25s;
+    -webkit-animation:fadein 0.6s;
+    -moz-animation:fadein 0.6s;
+    -ms-animation:fadein 0.6s;
+    -o-animation:fadein 0.6s;
+    animation:fadein 0.6s;
 }
 #chat .mention {
 background-color: rgba(60, 0, 80, 0.32);
@@ -124,10 +137,10 @@ background-color: rgba(60, 0, 80, 0.32);
     background: rgba(20, 0, 40, 0.90);
 }
 #dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
-    background: #630076;
+    background: rgba(40, 40, 40, 0.84) !important;
 }
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
-background: #630076;
+background: #06AAE8;
 border-radius: 8px;
 /*border-left-width: 4px;*/
 }
@@ -147,20 +160,14 @@ border-left: 3px solid #2E0F3B;
 border-left: 3px solid #76448A;
 }*/
 #dj-button {
-background: #2E0F3B;
+background: rgba(40, 40, 40, 0.84) !important;
 border-radius: 8px;
 }
 #vote .crowd-response {
-background: #5E4687;
+background: rgba(40, 40, 40, 0.84) !important;
 }
-#woot .bottom, #woot.selected {
-background: #7D2FFF;
-}
-#grab .bottom, #grab.selected {
-background: #9352FF;
-}
-#meh .bottom, #meh.selected {
-background: #4303AF;
+.title.woot {
+background: #06AAE8;
 }
 .row:hover {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
