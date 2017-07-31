@@ -10,13 +10,13 @@
     background: linear-gradient(to bottom,rgba(50, 80, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
 #woot .bottom, #woot.selected {
-background: #06AAE8;
+background: #300CAD;
 }
 #grab .bottom, #grab.selected {
-background: #E8B806;
+background: #DD9701;
 }
 #meh .bottom, #meh.selected {
-background: #E80655;
+background: #E3005D;
 }
 #playlist-button {
     background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
